@@ -37,7 +37,7 @@ public class BenchmarkRunner {
                         tracker.getArrayAccesses(),
                         timeMs
                 );
-                System.out.printf("✔ %s (n=%d) done%n", type, n);
+                System.out.printf("%s (n=%d) done%n", type, n);
             }
         }
         System.out.println("\nBenchmark complete. Results saved to docs/performance-plots/insertion_benchmark.csv");
